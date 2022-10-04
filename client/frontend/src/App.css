@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.display__data {
+  border: 1px solid black;
+  width: 100%;
+  height: 46vh;
+}
+
+.search__data {
+  border: 1px solid black;
+  width: 50vw;
+  height: 49vh;
+}
+
+.display__userdata {
+  border: 1px solid black;
+  width: 50vw;
+  height: 49vh;
+}
+
+.nav__bar{
+  border: 1px solid black;
+}
