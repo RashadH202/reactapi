@@ -2,26 +2,36 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  margin: 1px
 }
 
 .display__data {
   border: 1px solid black;
-  width: 100%;
+  width: 99%;
   height: 46vh;
 }
 
 .search__data {
   border: 1px solid black;
-  width: 50vw;
+  width: 49vw;
   height: 49vh;
+  justify-content: center;
 }
 
-.display__userdata {
+.display__savedata {
   border: 1px solid black;
-  width: 50vw;
+  width: 49vw;
   height: 49vh;
+  overflow: scroll;
 }
 
 .nav__bar{
   border: 1px solid black;
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+      margin-left: 0;
+  }
 }
