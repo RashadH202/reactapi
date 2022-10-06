@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express()
-// const DataModel = require(../models/userdata)
+const DataModel = require('../models/userdata')
 
 //Route to post objects to database from front end using express
 router.post("/addData", async (req, res) => {
